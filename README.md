@@ -18,3 +18,6 @@ $db->addServer(array (
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
 ```
+
+# 仓库来源
+https://github.com/lete114/Vercel-Typecho
