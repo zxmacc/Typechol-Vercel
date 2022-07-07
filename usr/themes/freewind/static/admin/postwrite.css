@@ -1,0 +1,131 @@
+#wmd-button-bar, #wmd-preview {
+    display: none;
+}
+
+#wmd-editarea {
+    z-index: 99999999;
+}
+
+.editormd-form select {
+    width: 264px;
+    height: 34px;
+    color: #000;
+}
+
+#custom-field select {
+    width: 40%;
+}
+
+#custom-field input,
+#custom-field textarea {
+    width: 100%;
+}
+
+#custom-field textarea {
+    height: 200px;
+}
+
+#freewind-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999999999;
+}
+
+#freewind-mask .freewind-file-box {
+    padding: 10px;
+    width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#freewind-mask .freewind-file-box h2 {
+    margin: 0 0 20px;
+    border-bottom: 1px solid rgba(1, 1, 1, .1);
+    padding: 0;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+}
+
+#freewind-mask #close-file {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#freewind-mask #close-file:hover {
+    cursor: pointer;
+}
+
+#freewind-mask .freewind-file-item {
+    margin: 10px 0;
+}
+
+#freewind-mask .freewind-file-item input,
+#freewind-mask .freewind-file-item select {
+    width: 160px;
+    outline: none;
+}
+
+#freewind-mask .freewind-file-item label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+#freewind-mask .freewind-file-item label::after {
+    content: ' : ';
+}
+
+#freewind-mask .freewind-file-item.freewind-item-block input,
+#freewind-mask .freewind-file-item.freewind-item-block select {
+    width: 428px;
+}
+
+#freewind-mask .freewind-footer {
+    text-align: right;
+}
+
+#freewind-mask .freewind-footer button {
+    border: none;
+    background-color: #467C95;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+#freewind-mask .freewind-footer button:first-child {
+    background-color: #E9E9E5;
+    color: #707070;
+}
+
+#freewind-mask .freewind-footer button:last-child {
+    margin-right: 67px;
+}
+
+.face-list {
+    padding: 20px;
+    height: 300px;
+    max-width: 400px;
+    overflow-y: scroll;
+}
+
+p.mono.url-slug {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: bottom;
+}
+
+#slug {
+    top: 15px!important;
+}
+
+.layui-colorpicker {
+    padding: 0 !important;
+}
